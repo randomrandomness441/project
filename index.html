@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Challenge For You 💕</title>
+    <title>For You 💕</title>
     <style>
         * {
             margin: 0;
@@ -204,8 +204,8 @@
     <div class="hearts" id="hearts"></div>
     
     <div class="container">
-        <div class="emoji-top">🏸</div>
-        <h1>Hey cutie! 💕<br>Do you think you can<br><span class="highlight">defeat me in badminton?</span></h1>
+        <div class="emoji-top">😘</div>
+        <h1>Kukum Juice! 💕<br><span class="highlight">Can I kiss you?</span></h1>
         
         <div class="buttons" id="buttonContainer">
             <button id="yesBtn">Yes 😤</button>
@@ -214,13 +214,9 @@
         
         <!-- Response for Yes -->
         <div class="response-box response-yes" id="yesResponse">
-            <span class="response-emoji">😂🏸</span>
-            <strong>IN YOUR DREAMS!</strong>
-            <p style="margin-top: 15px; font-size: 17px;">Because <strong>Newton's 4th Law</strong> clearly states:</p>
-            <div class="law-box">
-                <em>"Kavya cannot beat Sourav — the God, the Myth, the Conqueror, the Greatest of All Time"</em>
-            </div>
-            <button class="reset-btn" onclick="resetPage()">Try Again? 🔄</button>
+            <span class="response-emoji">😘💕</span>
+            <strong>Wise decision, i am kissing you anyway !! love ya girl</strong>
+            <button class="reset-btn" onclick="resetPage()">Again? 🔄</button>
         </div>
     </div>
 
@@ -258,7 +254,7 @@
         // Create floating hearts
         function createHearts() {
             const heartsContainer = document.getElementById('hearts');
-            const heartEmojis = ['💕', '💖', '💗', '💝', '🏸', '✨'];
+            const heartEmojis = ['💕', '💖', '💗', '💝', '😘', '❤️'];
             
             for (let i = 0; i < 15; i++) {
                 const heart = document.createElement('div');
@@ -290,7 +286,7 @@
             buttonContainer.classList.add('hidden');
             noBtn.style.display = 'none';
             yesResponse.style.display = 'block';
-            burstEmoji(['😂', '💀', '🏸', '😤'], 15);
+            burstEmoji(['💕', '❤️', '😘', '💖'], 15);
         });
 
         function resetPage() {
